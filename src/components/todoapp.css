@@ -1,0 +1,102 @@
+.todo {
+  
+  color: white;
+  
+}
+
+.todo .crossText {
+  
+  color: rgb(9, 9, 245);
+   
+}
+.todo .crossTexte {
+  
+  opacity: 0;
+  color: rgb(9, 9, 245);
+  
+}
+.listitem{
+  
+  opacity:0;
+  margin-top: 400px;
+  color: rgb(9, 9, 245);
+  
+  
+}
+
+.todo input {
+  background: white;
+  border: none;
+  color: rgb(10, 28, 235);
+  min-width: 200px;
+  margin-top: 80px;
+  padding: 5px;
+  font-size: 1.3rem;
+  font-family: 'Trebuchet MS', sans-serif;
+  margin-left: 40%;
+  
+}
+
+.todo input::placeholder {
+  
+  font-size: 1.3rem;
+}
+
+.todo input:focus {
+  outline: none;
+  
+}
+
+.todo .add-btn {
+  padding: 5px;
+  border-radius: 5%;
+  color: rgb(246, 244, 250);
+  font-size: 1.2rem;
+  background-color: rgb(25, 0, 255);
+  border: none;
+  margin-left: 10px;
+  cursor: pointer;
+  
+}
+
+
+
+.todo ul {
+  margin-top: 30px;
+  font-size: 1.5rem;
+  
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.todo ul  {
+  list-style: none;
+  padding-left: 45%;
+  font-family: 'Trebuchet MS', sans-serif;
+  color: rgb(9, 9, 245);
+}
+.todo ul li .delete {
+  margin-top: 0px;
+  padding: 10px 10px 10px 10px;
+  border-radius: 2px;
+  border: none;
+  cursor: pointer;
+  background-color: rgb(25, 0, 255);
+  color: white;
+  margin-left: 15px;
+}
+
+.todo ul li .completed {
+  margin-top: 0px;
+  
+  padding: 10px 10px 10px 10px;
+  border-radius: 2px;
+  border: none;
+  cursor: pointer;
+  background-color: rgb(25, 0, 255);
+  margin-left: 15px;
+  color: white;
+  
+  
+
+}

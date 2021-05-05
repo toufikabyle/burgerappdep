@@ -1,0 +1,26 @@
+.App {
+  display: flex;
+  flex-flow: column nowrap;
+  margin-top: 50px;
+}
+
+.App .title {
+  font-size: 5rem;
+  padding: 0px 20px 0px 20px;
+  align-self: center;
+  color: #f7f2f2;
+  font-family: 'Trebuchet MS', sans-serif;
+  text-shadow: 6px 6px 8px #000000;
+  text-decoration: underline ;
+}
+
+.title1 {
+  font-size: 3rem;
+  position: absolute;
+  align-self: center;
+  color: #ee0606de;
+  font-family: 'Trebuchet MS', sans-serif;
+  text-shadow: 8px 8px 10px #02010c;
+  text-decoration: underline overline ;
+  margin-top: 500px;
+}
